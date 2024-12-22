@@ -18,7 +18,7 @@ Zorg ervoor dat de volgende software geïnstalleerd is op je computer:
 
 Clone het project naar je lokale machine:
 
-git clone https://github.com/jouwusername/VolunteeringApp.git
+git clone https://github.com/HamzaKh46/VolunteeringApp.git
 
 Je kan fondsenwervers vinden bij "Discover" aan de hand van keywords zoals: school, animals, children, etc..
 Dit feature maakt gebruik van een externe API. Voeg daarom de onderstaande API-sleutels toe aan de .env file:
