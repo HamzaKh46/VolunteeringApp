@@ -40,12 +40,19 @@ Mailfunctionaliteit: Gebruikers kunnen een e-mail sturen naar de admin. In het a
 Om ervoor te zorgen dat dit goed werkt, voeg de nodige mailconfiguratie toe aan de .env file:
 
 MAIL_MAILER=smtp
+
 MAIL_HOST=smtp.your-email-provider.com
+
 MAIL_PORT=587
+
 MAIL_USERNAME=your-email@example.com
+
 MAIL_PASSWORD=your-email-password
+
 MAIL_ENCRYPTION=tls
+
 MAIL_FROM_ADDRESS=your-email@example.com
+
 MAIL_FROM_NAME="${APP_NAME}"
 
 Gebruikersprofielen: Alle gebruikers zijn publiek zichtbaar onder de Users-tab in de header.
