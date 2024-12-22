@@ -17,7 +17,7 @@ Zorg ervoor dat de volgende software geïnstalleerd is op je computer:
 ### 2. Clonen van het project
 
 Clone het project naar je lokale machine:
-```bash
+
 git clone https://github.com/jouwusername/VolunteeringApp.git
 
 Je kan fondsenwervers vinden bij "Discover" aan de hand van keywords zoals: school, animals, children, etc..
