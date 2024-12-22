@@ -60,6 +60,8 @@ Gebruikersprofielen: Alle gebruikers zijn publiek zichtbaar onder de Users-tab i
 Extra features in de header:
 
 FAQ: Toegang tot de veelgestelde vragen.
+
 Contact: Formulier om een e-mail te sturen.
+
 Projects: Overzicht van lopende projecten.
 
