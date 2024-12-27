@@ -32,27 +32,20 @@ Na het clonen van het project, voer de volgende commando's uit:
 composer install
 npm install
 php artisan key:generate
-php artisan storage:link
+php artisan storage:link voor de pictures
 
 ### Algemene Informatie
 
-Mailfunctionaliteit: Gebruikers kunnen een e-mail sturen naar de admin. In het adminpanel krijgt de admin een overzicht van alle ontvangen e-mails.
+Mailfunctionaliteit: Gebruikers kunnen een e-mail sturen naar de admin. In het adminpanel krijgt de admin een overzicht van alle ontvangen e-mails. Dit werkt met Mailtrap en hun api om de alle mail te fetchen.
 Om ervoor te zorgen dat dit goed werkt, voeg de nodige mailconfiguratie toe aan de .env file:
 
-MAIL_MAILER=smtp
-
-MAIL_HOST=smtp.your-email-provider.com
-
-MAIL_PORT=587
-
-MAIL_USERNAME=your-email@example.com
-
-MAIL_PASSWORD=your-email-password
-
+MAIL_MAILER="smtp"
+MAIL_HOST=sandbox.smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=afb2059ff79bc3
+MAIL_PASSWORD=6c5b03776f6ef1
 MAIL_ENCRYPTION=tls
-
-MAIL_FROM_ADDRESS=your-email@example.com
-
+MAIL_FROM_ADDRESS="no-reply@localhost"
 MAIL_FROM_NAME="${APP_NAME}"
 
 Gebruikersprofielen: Alle gebruikers zijn publiek zichtbaar onder de Users-tab in de header.
